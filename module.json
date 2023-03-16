@@ -1,0 +1,91 @@
+{
+  "id": "tm-adv-thorwaler-trolle",
+  "title": "tm-adv-thorwaler-trolle",
+  "description": "Dieses Modul spielt mit den Trollen rund um Thorwal",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "authors": [
+    {
+      "name": "tm"
+    }
+  ],
+  "packs": [
+    {
+      "name": "actors",
+      "label": "tm-adv-thorwaler-trolle",
+      "path": "/packs/actors.db",
+      "entity": "Actor",
+      "type": "Actor",
+      "system": "dsa5"
+    },
+    {
+      "name": "adventure",
+      "label": "tm-adv-thorwaler-trolle",
+      "path": "/packs/adventure.db",
+      "entity": "Adventure",
+      "type": "Adventure",
+      "system": "dsa5"
+    },
+    {
+      "name": "cards",
+      "label": "tm-adv-thorwaler-trolle",
+      "path": "/packs/cards.db",
+      "entity": "Cards",
+      "type": "Cards"
+    },
+    {
+      "name": "items",
+      "label": "tm-adv-thorwaler-trolle",
+      "path": "/packs/items.db",
+      "entity": "Item",
+      "type": "Item",
+      "system": "dsa5"
+    },
+    {
+      "name": "journals",
+      "label": "tm-adv-thorwaler-trolle",
+      "path": "/packs/journals.db",
+      "entity": "JournalEntry",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "macros",
+      "label": "tm-adv-thorwaler-trolle",
+      "path": "/packs/macros.db",
+      "entity": "Macro",
+      "type": "Macro"
+    },
+    {
+      "name": "maps",
+      "label": "tm-adv-thorwaler-trolle",
+      "path": "/packs/maps.db",
+      "entity": "Scene",
+      "type": "Scene"
+    },
+    {
+      "name": "playlists",
+      "label": "tm-adv-thorwaler-trolle",
+      "path": "/packs/playlists.db",
+      "entity": "Playlist",
+      "type": "Playlist"
+    },
+    {
+      "name": "rolltables",
+      "label": "tm-adv-thorwaler-trolle",
+      "path": "/packs/rolltables.db",
+      "entity": "RollTable",
+      "type": "RollTable"
+    }
+  ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "manifestPlusVersion": "1.2.0"
+}
