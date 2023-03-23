@@ -2,7 +2,7 @@
   "id": "tm-adv-thorwaler-trolle",
   "title": "tm-adv-thorwaler-trolle",
   "description": "Dieses Modul spielt mit den Trollen rund um Thorwal",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "compatibility": {
     "minimum": "10",
     "verified": "10",
@@ -10,7 +10,8 @@
   },
   "authors": [
     {
-      "name": "tm"
+      "name": "tm",
+      "flags": {}
     }
   ],
   "packs": [
@@ -18,74 +19,82 @@
       "name": "actors",
       "label": "tm-adv-thorwaler-trolle",
       "path": "/packs/actors.db",
-      "entity": "Actor",
       "type": "Actor",
-      "system": "dsa5"
+      "system": "dsa5",
+      "private": false,
+      "flags": {}
     },
     {
       "name": "adventure",
       "label": "tm-adv-thorwaler-trolle",
       "path": "/packs/adventure.db",
-      "entity": "Adventure",
       "type": "Adventure",
-      "system": "dsa5"
+      "system": "dsa5",
+      "private": false,
+      "flags": {}
     },
     {
       "name": "cards",
       "label": "tm-adv-thorwaler-trolle",
       "path": "/packs/cards.db",
-      "entity": "Cards",
-      "type": "Cards"
+      "type": "Cards",
+      "private": false,
+      "flags": {}
     },
     {
       "name": "items",
       "label": "tm-adv-thorwaler-trolle",
       "path": "/packs/items.db",
-      "entity": "Item",
       "type": "Item",
-      "system": "dsa5"
+      "system": "dsa5",
+      "private": false,
+      "flags": {}
     },
     {
       "name": "journals",
       "label": "tm-adv-thorwaler-trolle",
       "path": "/packs/journals.db",
-      "entity": "JournalEntry",
-      "type": "JournalEntry"
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {}
     },
     {
       "name": "macros",
       "label": "tm-adv-thorwaler-trolle",
       "path": "/packs/macros.db",
-      "entity": "Macro",
-      "type": "Macro"
+      "type": "Macro",
+      "private": false,
+      "flags": {}
     },
     {
       "name": "maps",
       "label": "tm-adv-thorwaler-trolle",
       "path": "/packs/maps.db",
-      "entity": "Scene",
-      "type": "Scene"
+      "type": "Scene",
+      "private": false,
+      "flags": {}
     },
     {
       "name": "playlists",
       "label": "tm-adv-thorwaler-trolle",
       "path": "/packs/playlists.db",
-      "entity": "Playlist",
-      "type": "Playlist"
+      "type": "Playlist",
+      "private": false,
+      "flags": {}
     },
     {
       "name": "rolltables",
       "label": "tm-adv-thorwaler-trolle",
       "path": "/packs/rolltables.db",
-      "entity": "RollTable",
-      "type": "RollTable"
+      "type": "RollTable",
+      "private": false,
+      "flags": {}
     }
   ],
   "esmodules": [
-    "./scripts/init.js"
+    "scripts/init.js"
   ],
   "url": "https://github.com/pro-tom-og/foundry-adv-thorwal-trolle/",
   "manifest": "https://github.com/pro-tom-og/foundry-adv-thorwal-trolle/releases/latest/download/module.json",
-  "download": "https://github.com/pro-tom-og/foundry-adv-thorwal-trolle/releases/download/0.0.1/module.zip"
-  "manifestPlusVersion": "1.2.0"
+  "download": "https://github.com/pro-tom-og/foundry-adv-thorwal-trolle/releases/download/0.0.2/module.zip"
 }
