@@ -2,11 +2,11 @@
   "id": "tm-adv-thorwaler-trolle",
   "title": "tm-adv-thorwaler-trolle",
   "description": "Dieses Modul spielt mit den Trollen rund um Thorwal",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "compatibility": {
     "minimum": "10",
-    "verified": "10",
-    "maximum": "10"
+    "verified": "11",
+    "maximum": "12"
   },
   "authors": [
     {
@@ -19,75 +19,75 @@
       "name": "actors",
       "label": "tm-adv-thorwaler-trolle",
       "path": "/packs/actors.db",
+      "private": false,
       "type": "Actor",
       "system": "dsa5",
-      "private": false,
       "flags": {}
     },
     {
       "name": "adventure",
       "label": "tm-adv-thorwaler-trolle",
       "path": "/packs/adventure.db",
+      "private": false,
       "type": "Adventure",
       "system": "dsa5",
-      "private": false,
       "flags": {}
     },
     {
       "name": "cards",
       "label": "tm-adv-thorwaler-trolle",
       "path": "/packs/cards.db",
-      "type": "Cards",
       "private": false,
+      "type": "Cards",
       "flags": {}
     },
     {
       "name": "items",
       "label": "tm-adv-thorwaler-trolle",
       "path": "/packs/items.db",
+      "private": false,
       "type": "Item",
       "system": "dsa5",
-      "private": false,
       "flags": {}
     },
     {
       "name": "journals",
       "label": "tm-adv-thorwaler-trolle",
       "path": "/packs/journals.db",
-      "type": "JournalEntry",
       "private": false,
+      "type": "JournalEntry",
       "flags": {}
     },
     {
       "name": "macros",
       "label": "tm-adv-thorwaler-trolle",
       "path": "/packs/macros.db",
-      "type": "Macro",
       "private": false,
+      "type": "Macro",
       "flags": {}
     },
     {
       "name": "maps",
       "label": "tm-adv-thorwaler-trolle",
       "path": "/packs/maps.db",
-      "type": "Scene",
       "private": false,
+      "type": "Scene",
       "flags": {}
     },
     {
       "name": "playlists",
       "label": "tm-adv-thorwaler-trolle",
       "path": "/packs/playlists.db",
-      "type": "Playlist",
       "private": false,
+      "type": "Playlist",
       "flags": {}
     },
     {
       "name": "rolltables",
       "label": "tm-adv-thorwaler-trolle",
       "path": "/packs/rolltables.db",
-      "type": "RollTable",
       "private": false,
+      "type": "RollTable",
       "flags": {}
     }
   ],
